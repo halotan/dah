@@ -1,0 +1,77 @@
+local Luminosity = loadstring(game:HttpGet("https://raw.githubusercontent.com/iHavoc101/Genesis-Studios/main/UserInterface/Luminosity.lua", true))()
+
+local Window = Luminosity.new("Valkirb Hub", "V.Ultimate", 4370345701)
+
+local Tab1 = Window.Tab("Scripts", 6026568198)
+local Folder = Tab1.Folder("Fe Scripts","(Credits: Halotan#5959)")
+local Folder2 = Tab1.Folder("Net Bypass","(Credits: Halotan#5959)")
+local Folder3 = Tab1.Folder("Ragdoll","(Credits: Halotan#5959)")
+
+--fe scripts
+
+Folder.Button("Trash Can", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/LHRiFVYm",true))()
+end)
+
+Folder.Button("Fe Orbital Hats", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/4B4fktPS", true))()
+end)
+
+Folder.Button("Fe Cat", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/H0fCpUYQ", true))()
+end)
+
+Folder.Button("Fe Achromatic", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/DZGLMWfG", true))()
+end)
+
+Folder.Button("Fe Hand", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/mD9J8xrn", true))()
+end)
+
+Folder.Button("Fe Car", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/VSricnG7", true))()
+end)
+
+--net bypass
+
+Folder2.Button("Normal Bypass Net", function()
+sethiddenproperty(game.Players.LocalPlayer, "MaximumSimulationRadius", 999999999999999999999999)
+sethiddenproperty(game.Players.LocalPlayer, "SimulationRadius", 999999999999999999999999) 
+end)
+
+Folder2.Button("Idk Bypass Net", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/fXwQRn7f", true))()
+end)
+
+Folder2.Button("Paid Bypass Net", function()
+loadstring(game:HttpGet(('https://spiderscript.xyz/scripts/FilterNet.txt'),true))()
+end)
+
+--ragdoll
+
+Folder3.Button("Anti-Ragdoll", function()
+loadstring(game:HttpGet(('https://ghostbin.co/paste/6xo7b3/raw'),true))()
+end)
+
+Folder3.Button("Ragdoll Gui (Tsuniox)", function()
+loadstring(game:HttpGet(('https://gitlab.com/Tsuniox/lua-stuff/-/raw/master/RagdollEngineGUI.lua'),true))()
+end)
+
+Folder3.Button("Ragdoll Gui (Vynixius)", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/RegularVynixu/Scripts/master/Vynixius%20Ragdoll%20Engine'),true))()
+end)
+
+Folder3.Button("Ragdoll Gui (Exodus)", function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/MeAL9tUE'),true))()
+end)
+
+-- Tab 2 --
+local Tab2 = Window.Tab("Coming Soon", 6022668945)
+
+
+game:GetService("UserInputService").InputBegan:Connect(function(Input)
+if Input.KeyCode == Enum.KeyCode.Z then
+Window:Toggle()
+end
+end)
