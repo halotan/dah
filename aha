@@ -1,34 +1,42 @@
 local Luminosity = loadstring(game:HttpGet("https://raw.githubusercontent.com/iHavoc101/Genesis-Studios/main/UserInterface/Luminosity.lua", true))()
 
-local Window = Luminosity.new("Valkirb Hub", "V.Ultimate", 4370345701)
+local Window = Luminosity.new("Valkirb Hub", "V.Sunbxr", 4370345701)
 
 local Tab1 = Window.Tab("Scripts", 6026568198)
 local Folder = Tab1.Folder("Fe Scripts","(Credits: Halotan#5959)")
 local Folder2 = Tab1.Folder("Net Bypass","(Credits: Halotan#5959)")
 local Folder3 = Tab1.Folder("Ragdoll","(Credits: Halotan#5959)")
 
-Folder.Button("Trash Can", "Click", function()
+Folder.Button("FE Trash Can", "Click", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/LHRiFVYm",true))()
 end)
 
-Folder.Button("Fe Orbital Hats", "Click", function()
+Folder.Button("FE Orbital Hats", "Click", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/4B4fktPS", true))()
 end)
 
-Folder.Button("Fe Cat", "Click", function()
+Folder.Button("FE Cat", "Click", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/H0fCpUYQ", true))()
 end)
 
-Folder.Button("Fe Achromatic", "Click", function()
+Folder.Button("FE Achromatic", "Click", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/DZGLMWfG", true))()
 end)
 
-Folder.Button("Fe Hand", "Click", function()
+Folder.Button("FE Hand", "Click", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/mD9J8xrn", true))()
 end)
 
-Folder.Button("Fe Car", "Click", function()
+Folder.Button("FE Car", "Click", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/VSricnG7", true))()
+end)
+
+Folder.Button("FE Vapor Gun", "Click", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/BBWrfQ89", true))()
+end)
+
+Folder2.Button("FE Noob Humper", "Click", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/WkkG4LRN", true))()
 end)
 
 --net bypass
@@ -61,7 +69,26 @@ loadstring(game:HttpGet(('https://pastebin.com/raw/MeAL9tUE'),true))()
 end)
 
 -- Tab 2 --
-local Tab2 = Window.Tab("Coming Soon", 6022668945)
+local Tab2 = Window.Tab("Others Hubs", 6022668945)
+
+local Folder2 = Tab2.Folder("Free Hubs","(Credits: Halotan#5959)")
+
+Folder2.Button("Mizt Hub", "Click", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/LHRiFVYm",true))()
+end)
+
+Folder2.Button("OrHub Leaked", "Click", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/o5u3/OrHubv3/main/OrHubv3Cracked.txt",true))()
+end)
+
+Folder2.Button("Hat Hub Leaked", "Click", function()
+loadstring(game:HttpGet("https://ghostbin.co/paste/k76ez/raw",true))()
+end)
+
+
+Folder2.Button("NullWare", "Click", function()
+loadstring(game:HttpGet("https://paste.ee/r/z5drj/0", true))()
+end)
 
 
 game:GetService("UserInputService").InputBegan:Connect(function(Input)
