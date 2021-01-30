@@ -7,62 +7,56 @@ local Folder = Tab1.Folder("Fe Scripts","(Credits: Halotan#5959)")
 local Folder2 = Tab1.Folder("Net Bypass","(Credits: Halotan#5959)")
 local Folder3 = Tab1.Folder("Ragdoll","(Credits: Halotan#5959)")
 
---fe scripts
-
-Folder.Button("Trash Can", function()
+Folder.Button("Trash Can", "Click", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/LHRiFVYm",true))()
 end)
 
-Folder.Button("Fe Orbital Hats", function()
+Folder.Button("Fe Orbital Hats", "Click", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/4B4fktPS", true))()
 end)
 
-Folder.Button("Fe Cat", function()
+Folder.Button("Fe Cat", "Click", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/H0fCpUYQ", true))()
 end)
 
-Folder.Button("Fe Achromatic", function()
+Folder.Button("Fe Achromatic", "Click", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/DZGLMWfG", true))()
 end)
 
-Folder.Button("Fe Hand", function()
+Folder.Button("Fe Hand", "Click", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/mD9J8xrn", true))()
 end)
 
-Folder.Button("Fe Car", function()
+Folder.Button("Fe Car", "Click", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/VSricnG7", true))()
 end)
 
 --net bypass
 
-Folder2.Button("Normal Bypass Net", function()
+Folder2.Button("Normal Bypass Net", "Click", function()
 sethiddenproperty(game.Players.LocalPlayer, "MaximumSimulationRadius", 999999999999999999999999)
 sethiddenproperty(game.Players.LocalPlayer, "SimulationRadius", 999999999999999999999999) 
 end)
 
-Folder2.Button("Idk Bypass Net", function()
+Folder2.Button("Idk Bypass Net", "Click", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/fXwQRn7f", true))()
-end)
-
-Folder2.Button("Paid Bypass Net", function()
-loadstring(game:HttpGet(('https://spiderscript.xyz/scripts/FilterNet.txt'),true))()
 end)
 
 --ragdoll
 
-Folder3.Button("Anti-Ragdoll", function()
+Folder3.Button("Anti-Ragdoll", "Click", function()
 loadstring(game:HttpGet(('https://ghostbin.co/paste/6xo7b3/raw'),true))()
 end)
 
-Folder3.Button("Ragdoll Gui (Tsuniox)", function()
+Folder3.Button("Ragdoll Gui (Tsuniox)", "Click", function()
 loadstring(game:HttpGet(('https://gitlab.com/Tsuniox/lua-stuff/-/raw/master/RagdollEngineGUI.lua'),true))()
 end)
 
-Folder3.Button("Ragdoll Gui (Vynixius)", function()
+Folder3.Button("Ragdoll Gui (Vynixius)", "Click", function()
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/RegularVynixu/Scripts/master/Vynixius%20Ragdoll%20Engine'),true))()
 end)
 
-Folder3.Button("Ragdoll Gui (Exodus)", function()
+Folder3.Button("Ragdoll Gui (Exodus)", "Click", function()
 loadstring(game:HttpGet(('https://pastebin.com/raw/MeAL9tUE'),true))()
 end)
 
